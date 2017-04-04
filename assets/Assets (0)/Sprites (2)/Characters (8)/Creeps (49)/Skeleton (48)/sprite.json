@@ -1,0 +1,86 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "wrapping": "clampToEdge",
+  "pixelsPerUnit": 16,
+  "framesPerSecond": 10,
+  "opacity": null,
+  "alphaTest": 0.1,
+  "frameOrder": "columns",
+  "grid": {
+    "width": 16,
+    "height": 16
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "IdleUp",
+      "startFrameIndex": 7,
+      "endFrameIndex": 7,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "IdleDown",
+      "startFrameIndex": 0,
+      "endFrameIndex": 0,
+      "speed": 1
+    },
+    {
+      "id": "2",
+      "name": "IdleRight",
+      "startFrameIndex": 21,
+      "endFrameIndex": 21,
+      "speed": 1
+    },
+    {
+      "id": "3",
+      "name": "IdleLeft",
+      "startFrameIndex": 14,
+      "endFrameIndex": 14,
+      "speed": 1
+    },
+    {
+      "id": "4",
+      "name": "RunUp",
+      "startFrameIndex": 7,
+      "endFrameIndex": 10,
+      "speed": 1
+    },
+    {
+      "id": "5",
+      "name": "RunDown",
+      "startFrameIndex": 0,
+      "endFrameIndex": 4,
+      "speed": 1
+    },
+    {
+      "id": "6",
+      "name": "RunLeft",
+      "startFrameIndex": 14,
+      "endFrameIndex": 17,
+      "speed": 1
+    },
+    {
+      "id": "7",
+      "name": "RunRight",
+      "startFrameIndex": 21,
+      "endFrameIndex": 24,
+      "speed": 1
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  }
+}

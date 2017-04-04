@@ -1,0 +1,13 @@
+{
+  "formatVersion": 1,
+  "uniforms": [
+    {
+      "id": "0",
+      "name": "map",
+      "type": "c",
+      "value": "map"
+    }
+  ],
+  "useLightUniforms": false,
+  "attributes": []
+}

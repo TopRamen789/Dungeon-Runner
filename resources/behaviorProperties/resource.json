@@ -1,0 +1,46 @@
+{
+  "behaviors": {
+    "PlayerMovementBehavior": {
+      "scriptId": "7",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "enabled",
+          "type": "boolean"
+        },
+        {
+          "name": "movementEnabled",
+          "type": "boolean"
+        },
+        {
+          "name": "oldPosition",
+          "type": "any"
+        }
+      ]
+    },
+    "CameraFollowBehavior": {
+      "scriptId": "14",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "enabled",
+          "type": "boolean"
+        }
+      ]
+    },
+    "PlayerBuildBehavior": {
+      "scriptId": "26",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "CreepAIBehavior": {
+      "scriptId": "50",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

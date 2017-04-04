@@ -1,0 +1,242 @@
+{
+  "nextEntryId": 54,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Assets",
+      "type": null,
+      "children": [
+        {
+          "id": "28",
+          "name": "Font",
+          "type": "font"
+        },
+        {
+          "id": "1",
+          "name": "Scripts",
+          "type": null,
+          "children": [
+            {
+              "id": "22",
+              "name": "DungeonRunner",
+              "type": null,
+              "children": [
+                {
+                  "id": "7",
+                  "name": "PlayerMovement",
+                  "type": "script"
+                },
+                {
+                  "id": "14",
+                  "name": "CameraFollow",
+                  "type": "script"
+                }
+              ]
+            },
+            {
+              "id": "23",
+              "name": "DungeonMaster",
+              "type": null,
+              "children": [
+                {
+                  "id": "26",
+                  "name": "PlayerBuild",
+                  "type": "script"
+                },
+                {
+                  "id": "50",
+                  "name": "CreepAI",
+                  "type": "script"
+                }
+              ]
+            },
+            {
+              "id": "53",
+              "name": "Fade",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Sprites",
+          "type": null,
+          "children": [
+            {
+              "id": "8",
+              "name": "Characters",
+              "type": null,
+              "children": [
+                {
+                  "id": "40",
+                  "name": "Hitpoint",
+                  "type": "sprite"
+                },
+                {
+                  "id": "46",
+                  "name": "Knight",
+                  "type": null,
+                  "children": [
+                    {
+                      "id": "41",
+                      "name": "KnightPortrait",
+                      "type": "sprite"
+                    },
+                    {
+                      "id": "5",
+                      "name": "KnightSprite",
+                      "type": "sprite"
+                    }
+                  ]
+                },
+                {
+                  "id": "47",
+                  "name": "Portrait",
+                  "type": null,
+                  "children": [
+                    {
+                      "id": "43",
+                      "name": "PortraitHolderSet",
+                      "type": "tileSet"
+                    },
+                    {
+                      "id": "45",
+                      "name": "PortraitHolder",
+                      "type": "tileMap"
+                    }
+                  ]
+                },
+                {
+                  "id": "49",
+                  "name": "Creeps",
+                  "type": null,
+                  "children": [
+                    {
+                      "id": "48",
+                      "name": "Skeleton",
+                      "type": "sprite"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "52",
+              "name": "black background fader",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "27",
+          "name": "Tiles",
+          "type": null,
+          "children": [
+            {
+              "id": "11",
+              "name": "NinjaAdv Tile Set",
+              "type": "tileSet"
+            },
+            {
+              "id": "10",
+              "name": "Terrain",
+              "type": null,
+              "children": []
+            },
+            {
+              "id": "17",
+              "name": "Room",
+              "type": null,
+              "children": [
+                {
+                  "id": "12",
+                  "name": "DungeonWallUp",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "16",
+                  "name": "DungeonGround",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "19",
+                  "name": "DungeonWallLeft",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "20",
+                  "name": "DungeonWallDown",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "21",
+                  "name": "DungeonWallRight",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "34",
+              "name": "Buildings",
+              "type": null,
+              "children": [
+                {
+                  "id": "37",
+                  "name": "Barracks",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "38",
+                  "name": "SpikeTraps",
+                  "type": "tileMap"
+                }
+              ]
+            },
+            {
+              "id": "39",
+              "name": "Buttons",
+              "type": null,
+              "children": [
+                {
+                  "id": "32",
+                  "name": "BuildableGround5x5",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "31",
+                  "name": "BuildableGround4x4",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "25",
+                  "name": "BuildableGround3x3",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "30",
+                  "name": "BuildableGround2x2",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "35",
+                  "name": "BasicBuildings",
+                  "type": "tileMap"
+                },
+                {
+                  "id": "36",
+                  "name": "AdvancedBuildings",
+                  "type": "tileMap"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Main",
+      "type": "scene"
+    }
+  ]
+}
